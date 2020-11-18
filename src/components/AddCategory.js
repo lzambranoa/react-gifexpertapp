@@ -28,6 +28,7 @@ export const AddCategory = ({setCategories}) => {
             <p> { inputValue } </p>
             <input 
                 type="text"
+                placeholder="Busca tu Gif favorito"
                 value={inputValue}
                 onChange={handleInputChange}    
             />
